@@ -489,6 +489,15 @@
                                                     <rect key="frame" x="127" y="1" width="122" height="122"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zs-yn-ZWX">
+                                                    <rect key="frame" x="251" y="0.0" width="122" height="122"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain"/>
+                                                    <connections>
+                                                        <segue destination="5Y0-ZZ-4gZ" kind="show" id="cRf-TF-OAB"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <color key="backgroundColor" red="0.54117647059999996" green="0.65098039220000004" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
@@ -594,7 +603,29 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bBs-3x-tuh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1396" y="132"/>
+            <point key="canvasLocation" x="1396" y="131.52709359605913"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vCF-QA-aLv">
+            <objects>
+                <viewController id="5Y0-ZZ-4gZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nbj-UV-yBa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃昏00" translatesAutoresizingMaskIntoConstraints="NO" id="FQY-AW-zLZ">
+                                <rect key="frame" x="0.0" y="196" width="375" height="420"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CQr-ZV-A7t"/>
+                        <color key="backgroundColor" red="0.54117647059999996" green="0.65098039220000004" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kj5-cs-mTs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="slm-X7-Kur" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2160.8000000000002" y="131.52709359605913"/>
         </scene>
         <!--plot-->
         <scene sceneID="YGR-AX-KUm">
